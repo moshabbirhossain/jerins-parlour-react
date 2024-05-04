@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
         <div className='nav'>
             <div className="px-10  navbar shadow-xl">
-                <Link to='/jerin' className="flex-1">
+                <Link to='/' className="flex-1">
                     <img
                         src="../../public/images/logo.f07059ac3cd8ba600f56.png"
                         alt=""

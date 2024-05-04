@@ -13,7 +13,6 @@ import MainLayout from './layout/MainLayout.jsx';
 import SignUp from './pages/SignUp.jsx';
 import Contact from './pages/Contact.jsx';
 import Login from './pages/Login.jsx';
-import Jerin from './pages/Jerin.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,10 +22,6 @@ const router = createBrowserRouter([
         // path: "/",
         index: true,
         element: <Home/>,
-      },
-      {
-        path: "/jerin",
-        element: <Jerin/>,
       },
       {
         path: "/portfolio",
