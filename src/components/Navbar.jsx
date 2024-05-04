@@ -1,6 +1,7 @@
 import React from 'react';
 import {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
+import './Nav.css';
 
 const Navbar = () => {
     const [theme,setTheme] = useState('light')
@@ -18,8 +19,8 @@ const Navbar = () => {
     }
     //console.log(theme);
     return (
-        <div>
-            <div className="px-10 navbar shadow-2xl fixed z-10">
+        <div class='nav'>
+            <div className="px-10  navbar shadow-xl">
                 <Link to='/jerin' className="flex-1">
                     <img
                         src="../../public/images/logo.f07059ac3cd8ba600f56.png"
