@@ -4,7 +4,7 @@ const Services = () => {
     return (
         <div>
             <div className='px-20 py-8 bg-red-50'>
-                <h1 className='text-center text-3xl font-bold pb-10'>Our Awesome Services</h1>
+                <h1 className='text-center text-3xl font-bold pb-10'>Our Awesome <span className='text-secondary'>Services</span></h1>
                 <div className='flex justify-around'>
                     <div className="card w-96  shadow-xl">
                         <figure className="px-10 pt-10">
@@ -19,7 +19,7 @@ const Services = () => {
                     </div>
                     <div className="card w-96  shadow-xl">
                         <figure className="px-10 pt-10">
-                            <img src="../../public/images/s1.png" alt="Shoes" className="rounded-xl w-20"/>
+                            <img src="../../public/images/s2.png" alt="Shoes" className="rounded-xl w-20"/>
                         </figure>
                         <div className="card-body items-center text-center pt-0">
                             <h2 className="card-title">Cosmetic Dentistry</h2>
@@ -30,7 +30,7 @@ const Services = () => {
                     </div>
                     <div className="card w-96  shadow-xl">
                         <figure className="px-10 pt-10">
-                            <img src="../../public/images/s1.png" alt="Shoes" className="rounded-xl w-20"/>
+                            <img src="../../public/images/s3.png" alt="Shoes" className="rounded-xl w-20"/>
                         </figure>
                         <div className="card-body items-center text-center pt-0">
                             <h2 className="card-title">Cosmetic Dentistry</h2>

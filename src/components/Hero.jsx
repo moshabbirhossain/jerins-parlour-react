@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className='px-20 py-8 bg-red-50'>
+        <div className='px-20 pt-16 pb-2 mt-4 bg-red-50'>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src="../../public/images/woman.bcedfe65ba779d0d808c.png" className="w-1/2 h-1/3 rounded-lg"/>

@@ -4,7 +4,7 @@ const Message = () => {
     return (
         <div className='bg-red-50'>
             <div>
-                <h1 className='text-center text-4xl font-bold py-16'>Let us handle your<br/>project, professionally.</h1>
+                <h1 className='text-center text-4xl font-bold py-24'>Let us handle your<br/>project, professionally.</h1>
             </div>
             <div className='w-1/2 mx-auto mb-16'>
                 <div className='grid grid-cols-2 gap-6'>
