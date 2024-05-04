@@ -13,7 +13,9 @@ const MainLayout = () => {
             </div>
             {/* <Home/>
             <Portfolio/> */}
-            <Outlet/>
+            <div className='min-h-[calc(100vh-324px)]'>
+                <Outlet/>
+            </div>
             <div>
                 <Footer/> 
             </div>
