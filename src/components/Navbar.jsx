@@ -19,7 +19,7 @@ const Navbar = () => {
     }
     //console.log(theme);
     return (
-        <div class='nav'>
+        <div className='nav'>
             <div className="px-10  navbar shadow-xl">
                 <Link to='/jerin' className="flex-1">
                     <img
